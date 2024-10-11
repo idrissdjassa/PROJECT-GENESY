@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>G.D.H</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar bg-secondary d-none d-xl-block w-100">
+            <div class="container">
+                <div class="row gx-0 align-items-center" style="height: 45px;">
+                    <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap">
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>G.D.H</a>
+                            <a href="tel:+01234567890" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i> +49 0176 25756522</a>
+                            <a href="mailto:example@gmail.com" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>info@geweihtendesherrn.de</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-end">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-light btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a href="" class="navbar-brand p-0">
+                        <h1 class="display-6 text-primary"><img src="https://github.com/idrissdjassa/mein-App-images/blob/main/PHOTO-2024-08-17-00-21-10.jpg?raw=true" alt="Logo">  <i class="fas fa-ca-alt me-3"></i></i>Geweihten des Herrn</h1>
+                        <!-- <img src="img/logo.png" alt="Logo"> -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Startseite</a>
+                            <a href="about.html" class="nav-item nav-link">Über Uns </a>
+                            <a href="service.html" class="nav-item nav-link active">predigten </a>
+                            <a href="blog.html" class="nav-item nav-link">Meetings</a>
+                            
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu m-0">
+                                    <a href="feature.html" class="dropdown-item">Events</a>
+                                    <a href="cars.html" class="dropdown-item">Teams </a>
+                                    <a href="team.html" class="dropdown-item">Vision</a>
+                                    <a href="testimonial.html" class="dropdown-item">Zeugnisse</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Get Started</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Predigten</h4>
+                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Über Uns </a></li>
+                    <li class="breadcrumb-item active text-primary">Predigten </li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+ <!-- Services Start -->
+        <div class="container-fluid service py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize mb-3">Highlight <span class="text-primary">Latest Sermon </span></h1>
+                    <p class="mb-0">,
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item p-4">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-phone-alt fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3"> im Glauben wachsen </h5>
+                            <p class="mb-0">Lukas 8 : 22 "Dann fragte Jesus seine Gefährten: Wo ist denn euer Vertrauen geblieben? Großes Staunen überkam sie und sie sagten zueinander: Wer ist dieser Mann eigentlich? Dem Wind und dem Wasser kann er Befehle erteilen und sie leisten ihm Gehorsam!"</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item p-4">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-money-bill-alt fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3"> ausgerüstet sein, um im gegenwärtigen Jahrhundert zu bestehen  </h5>
+                            <p class="mb-0">Jesaja 41:10: "Fürchte dich nicht, ich bin mit dir; weiche nicht, denn ich bin dein Gott. Ich stärke dich, ich helfe dir auch, ich halte dich durch die rechte Hand meiner Gerechtigkeit."</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item p-4">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-road fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Die Befreiung vom spirituellen Geschlechtsverkehr</h5>
+                            <p class="mb-0"> Korinther 6:18-20: "Flieht die Unzucht! Jede Sünde, die ein Mensch tut, ist außerhalb des Leibes; wer aber Unzucht treibt, sündigt an seinem eigenen Leib. Oder wisst ihr nicht, dass euer Leib ein Tempel des Heiligen Geistes ist, der in euch ist und den ihr von Gott habt? Und ihr seid nicht euer selbst, denn ihr seid teuer erkauft; darum verherrlicht Gott in eurem Leib und in eurem Geist, die Gott gehören."</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item p-4">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-umbrella fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Auf die Ablehnung bauen</h5>
+                            <p class="mb-0">Matthäus 7:24-25:
+                            "Wer nun auf das hört, was ich gesagt habe, und danach handelt, der ist klug. Man kann ihn mit einem Mann vergleichen, der sein Haus auf felsigen Grund baut. Wenn ein Wolkenbruch niedergeht, das Hochwasser steigt und der Sturm am Haus rüttelt, wird es trotzdem nicht einstürzen, weil es auf Felsengrund gebaut ist. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item p-4">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-building fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Wie man die Befreiung erlebt</h5>
+                            <p class="mb-0">1 Korinther 3:17: "Denn der Herr ist der Geist; wo aber der Geist des Herrn ist, da ist Freiheit."</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item p-4">
+                            <div class="service-icon mb-4">
+                                <i class="fa fa-car-alt fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Vorteile des christlichen Glaubens</h5>
+                            <p class="mb-0">Johannes 3:16: "Denn also hat Gott die Welt geliebt, dass er seinen eingeborenen Sohn gab, damit alle, die an ihn glauben, nicht verloren werden, sondern das ewige Leben haben."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Car categories Start -->
+        <div class="container-fluid categories pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize mb-3"> Verpasst du etwas ? 
+ <span class="text-primary"> Unsere Events 👇🏼</span></h1>
+                    <p class="mb-0">
+                    </p>
+                </div>
+                <div class="categories-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="categories-item p-4">
+                        <div class="categories-item-inner">
+                            <div class="categories-img rounded-top">
+                                <img src="https://www.ev-kirche-schnait.de/fileadmin/mediapool/bilderpool/1_Web/Schmuckbilder/clipdealer-web.PNG" alt="">
+                            </div>
+                            <div class="categories-content rounded-bottom p-4">
+                                <h4> Gottesdienst </h4>
+                                <div class="categories-review mb-4">
+                                    <div class="me-3">Über Zoom</div>
+                                    <div class="d-flex justify-content-center text-secondary">
+                                   <!-- <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star text-body"></i>-->
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">Jeden Sonntag </h4>
+                                </div>
+                                <div class="row gy-2 gx-0 text-center mb-4">
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-users text-dark"></i> <span class="text-body ms-1">Glaübiger</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-book text-dark"></i> <span class="text-body ms-1">Bibel</span>
+                                    </div>
+                                    
+                                    
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-cogs text-dark"></i> <span class="text-body ms-1">Media Team</span>
+                                    </div>
+                                   
+                                </div>
+                                <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categories-item p-4">
+                        <div class="categories-item-inner">
+                            <div class="categories-img rounded-top">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Fhe68aAEdnCP6CVJDf2w_6D6mfC8idLs-GFRJVy-PFPlJygE3atCbXTGled0gv0_vhU&usqp=CAU" alt="">
+                            </div>
+                            <div class="categories-content rounded-bottom p-4">
+                                <h4> Biblische Lehre </h4>
+                                <div class="categories-review mb-4">
+                                    <div class="me-3"> in  Facebook </div>
+                                    <div class="d-flex justify-content-center text-secondary">
+                                      <!--  <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star text-body"></i>-->
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0"> Jeden Donnerstag </h4>
+                                </div>
+                                <div class="row gy-2 gx-0 text-center mb-4">
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-users text-dark"></i> <span class="text-body ms-1">Gläubiger</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-book text-dark"></i> <span class="text-body ms-1">Bibel</span>
+                                    </div>
+                            
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-cogs text-dark"></i> <span class="text-body ms-1">Media Team </span>
+                                    </div>
+                                   
+                                </div>
+                                <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categories-item p-4">
+                        <div class="categories-item-inner">
+                            <div class="categories-img rounded-top">
+                                <img src="https://cdn-icons-png.flaticon.com/512/439/439398.png" alt="">
+                            </div>
+                            <div class="categories-content rounded-bottom p-4">
+                                <h4>Termin </h4>
+                                <div class="categories-review mb-4">
+                                    <div class="me-3">In Vorbereitung</div>
+                                    <div class="d-flex justify-content-center text-secondary">
+                                  <!--   <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star text-body"></i>-->
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">Noch Nicht Fest</h4>
+                                </div>
+                                <div class="row gy-2 gx-0 text-center mb-4">
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-users text-dark"></i> <span class="text-body ms-1">Gläubiger</span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-book text-dark"></i> <span class="text-body ms-1">Bibel </span>
+                                    </div>
+                                    
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-cogs text-dark"></i> <span class="text-body ms-1">Media Team </span>
+                                    </div>
+                                    
+                                </div>
+                                <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categories-item p-4">
+                        <div class="categories-item-inner">
+                            <div class="categories-img rounded-top">
+                                <img src="https://github.com/idrissdjassa/mein-App-images/blob/main/PHOTO-2024-08-23-21-26-41.jpg?raw=true" class="img-fluid w-100 rounded-top" alt="">
+                            </div>
+                            <div class="categories-content rounded-bottom p-4">
+                                <h4> Evangelisierung </h4>
+                                <div class="categories-review mb-4">
+                                    <div class="me-3">in Freien </div>
+                                    <div class="d-flex justify-content-center text-secondary">
+                                       <!-- <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>-->
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0"> am Wochenende   </h4>
+                                </div>
+                                <div class="row gy-2 gx-0 text-center mb-4">
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-users text-dark"></i> <span class="text-body ms-1">Gläubiger </span>
+                                    </div>
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-book text-dark"></i> <span class="text-body ms-1">Bibel</span>
+                                    </div>
+                                    
+                                   
+                                    <div class="col-4 border-end border-white">
+                                        <i class="fa fa-cogs text-dark"></i> <span class="text-body ms-1">Media Team </span>
+                                    </div>
+                                    
+                                </div>
+                                <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Link </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Car categories End -->
+
+        <!-- Car Steps Start -->
+        <div class="container-fluid steps py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize text-white mb-3"> 
+Unsere <span class="text-primary"> Vision </span></h1>
+                    <p class="mb-0 text-white"> Vision ist Menschen für Christus zu gewinnen und Ihnen für das Kommen seines Reiches vorzubereiten und auszürüsten 
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="steps-item p-4 mb-4">
+                            <h4>Nehemia 8:10</h4>
+                            <p class="mb-0"> " Seid nicht bekümmert,denn die  Freude am Herrn ist eure Stärke! "</p>
+                            <div class="setps-number">01.</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="steps-item p-4 mb-4">
+                            <h4>Prediger 9:10</h4>
+                            <p class="mb-0"> "Alles , was deine Hand mit deiner Kraft zu  tun findet, das tue; denn es gibt Keinen ä Werk , Keinen Gedanken , Keine Erkenntnis , Keine Weisheit in der Unterwelt , Wohin du gehst." </p>
+                            <div class="setps-number">02.</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="steps-item p-4 mb-4">
+                            <h4>Psalm 34:5</h4>
+                            <p class="mb-0"> Wenn man seine Augen auf ihn richtet , strahlt man vor Freude , und das Gesicht wird beschämt. </p>
+                            <div class="setps-number">03.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Car Steps End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize mb-3"> Highlight <span class="text-primary">   Latest Events  </span></h1>
+                    <p class="mb-0">
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="https://github.com/idrissdjassa/mein-App-images/blob/main/438214482_939448971199711_466876193535160859_n.jpg?raw=true" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">01.Juni.2024</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">JOB TCHAKOUTE</span></div>
+                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2"></span></div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">Thema : Die Gnade  die lokalisiert und umsieldelt !!</a>
+                                <p class="mb-3"></p>
+                                <a href="https://www.facebook.com/diegeweihtendesHerrn/videos_by" class=""> Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="https://github.com/idrissdjassa/mein-App-images/blob/main/441946690_856204722618536_1829639373090944333_n.jpg?raw=true" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">26.Juni.2024</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">Pst Didier Tsumbu </span></div>
+                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2"></span></div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">Die Vorteile des christlichen Glauben </a>
+                                <p class="mb-3"></p>
+                                <a href="https://www.facebook.com/watch/diegeweihtendesHerrn/" class=""> Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="https://github.com/idrissdjassa/mein-App-images/blob/main/451830130_1912222209263492_7627437840130363044_n.jpg?raw=true" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="blog-content rounded-bottom p-4">
+                                <div class="blog-date">05.07.2024</div>
+                                <div class="blog-comment my-3">
+                                    <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">JOB TCHAKOUTE</span></div>
+                                    <div class="small"><span class="fa fa-comment-alt text-primary"></span><span class="ms-2"></span></div>
+                                </div>
+                                <a href="#" class="h4 d-block mb-3">Es ist an der Zeit </a>
+                                <p class="mb-3"></p>
+                                <a href="https://www.facebook.com/watch/diegeweihtendesHerrn/" class="">Read More  <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Banner Start --@
+        <div class="container-fluid banner pb-5 wow zoomInDown" data-wow-delay="0.1s">
+            <div class="container pb-5">
+                <div class="banner-item rounded">
+                    <img src="..." class="img-fluid rounded w-100" alt="">
+                    <div class="banner-content">
+                        <h2 class="text-primary">Rent Your Car</h2>
+                        <h1 class="text-white">Interested in Renting?</h1>
+                        <p class="text-white">Don't hesitate and send us a message.</p>
+                        <div class="banner-btn">
+                            <a href="#" class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">WhatchApp</a>
+                            <a href="#" class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner End -->
+
+        <!-- Team Start -->
+        <div class="container-fluid team pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize mb-3"> Team   <span class="text-primary"> im Gemeinde  </span>  </h1>
+                    <p class="mb-0"> 
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img src="https://github.com/idrissdjassa/mein-App-images/blob/main/PHOTO-2024-08-23-21-26-45.jpg?raw=true" class="img-fluid rounded w-100" alt="Image">
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>Lobreis-Team</h4>
+                                <p></p>
+                                <div class="team-icon d-flex justify-content-center">
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img src="https://github.com/idrissdjassa/mein-App-images/blob/main/Img-PROJECT-WEBSITES%2003/PHOTO-2024-09-06-03-30-34.jpg?raw=true" class="img-fluid rounded w-100" alt="Image">
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>Media-Team </h4>
+                                <p></p>
+                                <div class="team-icon d-flex justify-content-center">
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img src="https://github.com/idrissdjassa/mein-App-images/blob/main/PHOTO-2024-08-23-21-26-48%202.jpg?raw=true" class="img-fluid rounded w-100" alt="Image">
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>Evangelisation-Team</h4>
+                                <p></p>
+                                <div class="team-icon d-flex justify-content-center">
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item p-4 pt-0">
+                            <div class="team-img">
+                                <img src="https://github.com/idrissdjassa/mein-App-images/blob/main/Img-PROJECT-WEBSITES%2003/PHOTO-2024-09-06-03-19-02%202.jpg?raw=true" class="img-fluid rounded w-100" alt="Image">
+                            </div>
+                            <div class="team-content pt-4">
+                                <h4>Sohn-Gottes</h4>
+                                <p></p>
+                                <div class="team-icon d-flex justify-content-center">
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-light rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+         <!-- Banner Start -->
+        <div class="container-fluid banner pb-5 wow zoomInDown" data-wow-delay="0.1s">
+            <div class="container pb-5">
+                <div class="banner-item rounded">
+                    <img src="https://github.com/idrissdjassa/mein-App-images/blob/main/PHOTO-2024-08-23-21-26-47%202.jpg?raw=true" class="img-fluid rounded w-100" alt="">
+                    <div class="banner-content">
+                        <h2 class="text-primary">Rent Your Car</h2>
+                        <h1 class="text-white">Interested in Jesus Christus?</h1>
+                        <p class="text-white">Don't hesitate and send us a message.</p>
+                        <div class="banner-btn">
+                            <a href="#" class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">WhatchApp</a>
+                            <a href="file:///Users/andersondjassa/Downloads/PROJECT%20WEBSITES%203%20+/contact.html" class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial pb-5">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize mb-3"> Temoignages <span class="text-primary"> Temoignages </span></h1>
+                    <p class="mb-0"> 
+                    </p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="testimonial-inner p-4">
+                            <img src="img/testimoni.jpg" class="img-fluid" alt="">
+                            <div class="ms-4">
+                                <h4> Victimea </h4>
+                                <p></p>
+                                <div class="d-flex text-primary">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top rounded-bottom p-4">
+                            <p class="mb-0"> Amen ! Thanks you very much .</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="testimonial-inner p-4">
+                            <img src="img/testimonial-.jpg" class="img-fluid" alt="">
+                            <div class="ms-4">
+                                <h4> Laurinet safack </h4>
+
+                                <p> Über Das Prinzip des Bundnis </p>
+                                <div class="d-flex text-primary">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top rounded-bottom p-4">
+                            <p class="mb-0"> Halleyuah. 
+          </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i>
+                        </div>
+                        <div class="testimonial-inner p-4">
+                            <img src="img/testimonial-.jpg" class="img-fluid" alt="">
+                            <div class="ms-4">
+                                <h4> Solop </h4>
+                     <p> Über Die Liebe Zu Selbst Werden </p>
+                                <div class="d-flex text-primary">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                    <i class="fas fa-star text-body"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top rounded-bottom p-4">
+                            <p class="mb-0">HALLELUJAH.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h4 class="text-white mb-4">About Us</h4>
+                                <p class="mb-3">Wir sind eine christliche Gemeinschaft, die sich der Hingabe an Gott verschrieben hat.</p>
+                            </div>
+                            <div class="position-relative">
+                                <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                                <button type="button" class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Contact us </button>
+                            </div><!--Subscribe --->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Startseite</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Aktuelles</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Predigten</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Meeting</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">ÖFFNUNGSZEITEN</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">MONNTAG:</h6>
+                                <p class="text-white mb-0">10:00-00:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">DIENSTAG:</h6>
+                                <p class="text-white mb-0">10:00-23:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">SONNTAG</h6>
+                                <p class="text-white mb-0">08:00-23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <a href="#"><i class="fa fa-map-marker-alt me-2"></i>kreuzburgerstraße 15, 90471 Nürnberg , Bayern</a>
+                            <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@geweihtendesherrn.de</a>
+                            <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +49 0176 25756522 </a>
+                           
+                            <div class="d-flex">
+                                <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-facebook-f text-white"></i></a>
+                                <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-twitter text-white"></i></a>
+                                <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i> Copyrights © 2024 G.D.H . </a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed with ❤️ By Anderson <a class="border-bottom text-white" href="https://htmlcodex.com">Die Geweihten  </a> Des  <a class="border-bottom text-white" href="https://themewagon.com">Herrn </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
+
+
+        
